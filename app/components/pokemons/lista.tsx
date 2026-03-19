@@ -4,8 +4,8 @@ import { useEffect, useState } from "react"
 import Customer from "@/public/photo.jpeg"
 export default function Home() {
 
-  const [pokemon, setPokemon] = useState([])
-
+//  const [pokemon, setPokemon] = useState([])
+  const [pokemon, setPokemon] = useState<any[]>([])
   useEffect(() => {
 
     const loadPokemon = async () => {
